@@ -220,3 +220,8 @@ This guide documents the key errors faced when learning Maven, JavaFX, and media
 | Env var not set | Windows `setx` or not set in current session | Use `set`/`export` in current terminal session |
 | MP4 zoomed | `MediaView` shows native resolution | Use `fitWidth`, `fitHeight`, `preserveRatio` |
 | Hardcoding works, env var fails | Environment variables not visible to JVM | Set env vars in current session before running Maven |
+
+You can refer to this guide whenever you encounter similar issues in the future.
+Visit [Maven Documentation](https://maven.apache.org/guides/index.html) and [JavaFX Documentation](https://openjfx.io/) for more details and best practices.
+
+Youtube video with similar content: [Maven Tutorial - Crash Course](https://youtu.be/Xatr8AZLOsE?si=vvcEqddDVCo8KhlO) by Marco Codes.
