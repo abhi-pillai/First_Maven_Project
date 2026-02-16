@@ -60,7 +60,7 @@ public class App extends Application {
             System.out.println("Environment variable not set!");
             System.exit(0);
         }
-
+        scanner.close();
     }
 
     public static void main(String[] args) {
